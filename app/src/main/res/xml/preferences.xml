@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="DB MANAGEMENT">
+        <EditTextPreference
+            android:defaultValue="https://dazzling-inferno-7735.firebaseio.com/"
+            android:key="urlDB"
+            android:summary="Set Firebase DB url"
+            android:title="DB URL"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
